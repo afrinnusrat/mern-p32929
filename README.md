@@ -25,7 +25,6 @@ If you like my works and want to support me/my works, feel free to support or do
 * Material UI
 * Overmind
 * React Router
-* GH-Pages
 * NodeFetchHelper
 *
 
