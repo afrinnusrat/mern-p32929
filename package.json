@@ -1,0 +1,17 @@
+{
+  "name": "mern-p32929",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "concurrently \"yarn start:client\" \"yarn start:server\"",
+    "install:all": "yarn && yarn install:server && yarn install:client",
+    "install:client": "cd FrontEnd && yarn && cd ..",
+    "install:server": "cd BackEnd && yarn && cd ..",
+    "start:client": "cd FrontEnd && yarn start && cd ..",
+    "start:server": "cd BackEnd && yarn start && cd .."
+  },
+  "devDependencies": {
+    "concurrently": "^5.2.0"
+  }
+}
