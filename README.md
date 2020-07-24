@@ -27,10 +27,17 @@ If you like my works and want to support me/my works, feel free to support or do
 * React Router
 * GH-Pages
 * NodeFetchHelper
-* 
+*
 
-# Live:
-https://p32929.github.io/MyReactBoilerplate
+# How to use
+1. Fork it
+2. Clone it
+3. run `yarn install:all`
+4. run `yarn start`
+
+# Ports
+* NodeJS: 5000
+* React: 3000
 
 # License
 ```
